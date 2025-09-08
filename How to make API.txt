@@ -1,0 +1,13 @@
+domain/models/ → định nghĩa entity (nếu chưa có).
+
+infrastructure/models/ → định nghĩa bảng DataBase
+
+infrastructure/repositories/ → viết hàm lưu/xóa/sửa DataBase.
+
+api/schemas/ → định nghĩa dữ liệu đầu vào dữ liệu đầu ra.
+
+services/ → viết logic nghiệp vụ.
+
+api/controllers/ → định nghĩa route.
+
+Đăng ký blueprint trong app.py
